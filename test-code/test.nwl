@@ -1,0 +1,23 @@
++ = (a: Int, b: Int) -> Int `({% a %}+{% b %})`
+
++ = (a: Double, b: Int) -> Double `{% a %}+{% b %}`
+
++ = (a: Int, b: Double) -> Double `{% a %}+{% b %}`
+
++ = (a: Double, b: Double) -> Double `{% a %}+{% b %}`
+
+a
+a+b
+a+-4*8
+c = 9
+d = "elwe"
+
+e = 4930.9
+(a+4)*8.0
+4*a(c, -4*(re+5), eiwo+3920*3, b(lke.welk), [8, ekw, 32])+-1
+b = c+4-3
+d = b[ei]
+
+c()
+
+a.b(klre)

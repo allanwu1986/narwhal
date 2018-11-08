@@ -1,0 +1,93 @@
+`+` = (a: Int, b: Int) -> Int `({% $0 %}+{% $1 %})`
+
+`+` = (a: Double, b: Int) -> Double `({% $0 %}+{% $1 %})`
+
+`+` = (a: Int, b: Double) -> Double `({% $0 %}+{% $1 %})`
+
+`+` = (a: Double, b: Double) -> Double `({% $0 %}+{% $1 %})`
+
+`+` = (a: Int) -> Int `{% $0 %}`
+
+`+` = (a: Double) -> Double `{% $0 %}`
+
+`-` = (a: Int) -> Int `-({% $0 %})`
+
+`-` = (a: Double) -> Double `-({% $0 %})`
+
+`-` = (a: Int, b: Int) -> Int `({% $0 %}-{% $1 %})`
+
+`-` = (a: Double, b: Int) -> Double `({% $0 %}-{% $1 %})`
+
+`-` = (a: Int, b: Double) -> Double `({% $0 %}-{% $1 %})`
+
+`-` = (a: Double, b: Double) -> Double `({% $0 %}-{% $1 %})`
+
+`*` = (a: Int, b: Int) -> Int `({% $0 %}*{% $1 %})`
+
+`*` = (a: Double, b: Int) -> Double `({% $0 %}*{% $1 %})`
+
+`*` = (a: Int, b: Double) -> Double `({% $0 %}*{% $1 %})`
+
+`*` = (a: Double, b: Double) -> Double `({% $0 %}*{% $1 %})`
+
+`/` = (a: Int, b: Int) -> Int `({% $0 %}/{% $1 %})`
+
+`/` = (a: Double, b: Int) -> Double `({% $0 %}/{% $1 %})`
+
+`/` = (a: Int, b: Double) -> Double `({% $0 %}/{% $1 %})`
+
+`/` = (a: Double, b: Double) -> Double `({% $0 %}/{% $1 %})`
+
+`==` = (a: Int, b: Int) -> Bool `({% $0 %}=={% $1 %})`
+
+`==` = (a: Double, b: Int) -> Bool `({% $0 %}=={% $1 %})`
+
+`==` = (a: Int, b: Double) -> Bool `({% $0 %}=={% $1 %})`
+
+`==` = (a: Double, b: Double) -> Bool `({% $0 %}=={% $1 %})`
+
+`<` = (a: Int, b: Int) -> Bool `({% $0 %}<{% $1 %})`
+
+`<` = (a: Double, b: Int) -> Bool `({% $0 %}<{% $1 %})`
+
+`<` = (a: Int, b: Double) -> Bool `({% $0 %}<{% $1 %})`
+
+`<` = (a: Double, b: Double) -> Bool `({% $0 %}<{% $1 %})`
+
+`>` = (a: Int, b: Int) -> Bool `({% $0 %}>{% $1 %})`
+
+`>` = (a: Double, b: Int) -> Bool `({% $0 %}>{% $1 %})`
+
+`>` = (a: Int, b: Double) -> Bool `({% $0 %}>{% $1 %})`
+
+`>` = (a: Double, b: Double) -> Bool `({% $0 %}>{% $1 %})`
+
+`<=` = (a: Int, b: Int) -> Bool `({% $0 %}<={% $1 %})`
+
+`<=` = (a: Double, b: Int) -> Bool `({% $0 %}<={% $1 %})`
+
+`<=` = (a: Int, b: Double) -> Bool `({% $0 %}<={% $1 %})`
+
+`<=` = (a: Double, b: Double) -> Bool `({% $0 %}<={% $1 %})`
+
+`>=` = (a: Int, b: Int) -> Bool `({% $0 %}>={% $1 %})`
+
+`>=` = (a: Double, b: Int) -> Bool `({% $0 %}>={% $1 %})`
+
+`>=` = (a: Int, b: Double) -> Bool `({% $0 %}>={% $1 %})`
+
+`>=` = (a: Double, b: Double) -> Bool `({% $0 %}>={% $1 %})`
+
+`=` = (a, b) -> None `{% $0 %}={% $1 %}`
+
+`$sub$` = (array: Array(type), index: Int) -> type `({% $0 %}[{% $1 %}])`
+
+`$sub$` = (table: Hash(key, value), key) -> value ``
+
+`map` = (a: Array(from), map:((from) -> to)) -> Array(to) ``
+
+`filter` = (a: Array(n), filter:((n) -> Bool)) -> Array(n) ``
+
+`reduce` = (a: Array(n), reduce:(n, n) -> n) -> n ``
+
+`string` = (a: Int) -> String ``

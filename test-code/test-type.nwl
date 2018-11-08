@@ -1,0 +1,33 @@
+Person = Int c:(String) Just
+Another = d:(Int Int) | String
+Still = Person (Int | Still)
+Further = (some, a:Where, b:Over) -> Final | That Other More
+Func = (see) -> Yes
+FuncOrOther = ((none) -> none) | Other
+Combined = (yes, d:(some, a:Where, b:Over) -> Final | That Other) -> Person Another
+Other = (yes, there, here, everywhere) -> some : (G)
+
+example = (a:Yes, b:Yes, c: There | Fast) -> Back {
+    d = a(4*(re+5), eiwo+3920*3, b(lke.welk), [8, ekw, 32])
+    return a
+}
+Some = ( father, d:(mother, water, song) -> Son ) -> Yes
+Out = (ew) -> Some | None
+
+Final = d w
+
+Block = {
+    a: Person
+    b: Just Here
+    c: None | Doubt First
+}
+
+Random = () -> Int
+
+BlockOther = | {
+    a: (just, to) -> to
+    b: Doubt None
+    c: Eh
+}
+
+Fine = (None | Here | Fine) For

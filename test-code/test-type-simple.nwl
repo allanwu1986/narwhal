@@ -1,0 +1,15 @@
+Block = {
+    a: Person
+    b: Int
+    c: String
+}
+
+Block2 = | {
+    a: Person
+    b: Int
+    c: String
+}
+
+Example = (a: Int, b: String, c: Reason, d: (e: String) -> Int) -> Other
+
+
